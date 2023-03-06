@@ -1,0 +1,64 @@
+body {
+    font-family: arial;
+    text-align: center;
+}
+
+br{
+    width: 500px
+}
+
+#erros {
+    color: coral;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#digits {
+    width: 450px;
+    height: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.number{
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line{
+    border-bottom: 1px solid black;
+}
+
+.vertical-line{
+    border-right: 1px solid black;
+}
